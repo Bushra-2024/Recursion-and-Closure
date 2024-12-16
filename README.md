@@ -10,3 +10,14 @@ Key Points:
 A recursive function must have a base case to stop the recursion; otherwise, it can lead to infinite calls and cause a stack overflow.
 - Applications:
 Recursion is commonly used for tasks such as traversing trees, solving mathematical problems (e.g., factorial, Fibonacci), and implementing algorithms like quicksort or mergesort.
+
+` Example: Factorial Calculation `
+
+```
+function factorial(n) {
+    if (n === 0) return 1; // Base case
+    return n * factorial(n - 1); // Recursive case
+}
+
+console.log(factorial(5)); // Output: 120
+```

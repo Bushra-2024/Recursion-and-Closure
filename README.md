@@ -21,3 +21,28 @@ function factorial(n) {
 
 console.log(factorial(5)); // Output: 120
 ```
+
+##  Closures
+A closure is where a function is defined inside another function, and the inner function can access local variables (and parameters) defined in the local scope of the outer function.
+
+Key Points:
+- Closures are a powerful way to make functions "remember" their environment.
+- Closures help in maintaining state: Closures can keep track of information (state) between function calls, like counting or saving user data.
+
+` Example: Closure `
+
+```
+function counter() {
+    let count = 0; // Private variable
+    return function() {
+        count++;
+        return count;
+    };
+}
+
+const increment = counter();
+console.log(increment()); // Output: 1
+console.log(increment()); // Output: 2
+
+```
+

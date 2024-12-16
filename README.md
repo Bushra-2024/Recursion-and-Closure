@@ -8,5 +8,5 @@ Recursion is a process where a function calls itself repeatdly to solve a proble
 Key Points:
 - Base Case and Recursive Case:
 A recursive function must have a base case to stop the recursion; otherwise, it can lead to infinite calls and cause a stack overflow.
- -Applications:
+- Applications:
 Recursion is commonly used for tasks such as traversing trees, solving mathematical problems (e.g., factorial, Fibonacci), and implementing algorithms like quicksort or mergesort.
